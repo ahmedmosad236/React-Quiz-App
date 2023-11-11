@@ -58,7 +58,8 @@ const reducer = (state, action) => {
       return {
         ...initialState,
         questions: state.questions,
-        status: "",
+        status: "active",
+        secondsRemaining: state.questions.length * 30,
       };
     case "trik":
       return {

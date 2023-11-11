@@ -22,7 +22,7 @@ function Finishscreen() {
 
       <button
         className="btn btn-ui"
-        onClick={() => dispatch({ type: "start" })}
+        onClick={() => dispatch({ type: "restart" })}
       >
         Restart Quiz
       </button>
